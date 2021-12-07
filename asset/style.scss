@@ -48,6 +48,9 @@ $lineheight:25px;
             li.check__box 
             {
                 border-left: none;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
          
                 select{
                     background: $greencolor;
@@ -56,12 +59,18 @@ $lineheight:25px;
                     font-size: $smallsize;
                    cursor: pointer;
                    padding: 2px;
+                   -webkit-appearance: none;
+                   -moz-appearance: none;
+                   appearance: none;
                 }
                 option {
                     background: $lightcolor;
                     color: $darkcolor;
                     font-size: $smallsize;
                     cursor: pointer;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
                 }
             }
                li.phone__number 
@@ -147,18 +156,27 @@ $lineheight:25px;
             position: absolute;
             right: 1%;
             top: 8%;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
             select{
               background: $greencolor;
               color: $lightcolor;
               outline: none;
               padding: 3px;
               cursor: pointer;
+              -webkit-appearance: none;
+              -moz-appearance: none;
+              appearance: none;
             }
             option {
               background: $lightcolor;
               color: $darkcolor;
               font-size: $smallsize;
               cursor: pointer;
+              -webkit-appearance: none;
+              -moz-appearance: none;
+              appearance: none;
           }
           }
     #second__header
