@@ -49,6 +49,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  text-align: center;
 }
 
 .header .first__header li.check__box select {
@@ -57,10 +58,11 @@
   outline: none;
   font-size: 12px;
   cursor: pointer;
-  padding: 2px;
+  padding: 3px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  text-align: center;
 }
 
 .header .first__header li.check__box option {
@@ -71,6 +73,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  text-align: center;
 }
 
 .header .first__header li.phone__number {
@@ -82,6 +85,7 @@
   height: 35px;
   line-height: 12px;
   overflow: hidden;
+  margin-top: 2px;
 }
 
 .header .dynamic-txts li {
@@ -156,17 +160,19 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  text-align: center;
 }
 
 .header .res__box select {
   background: #b0b435;
   color: #f8f9fa;
   outline: none;
-  padding: 3px;
+  padding: 5px;
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  text-align: center;
 }
 
 .header .res__box option {
@@ -177,6 +183,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  text-align: center;
 }
 
 .header #second__header {
@@ -199,6 +206,13 @@
   font-weight: 700;
   font-size: 14px;
   margin-left: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.header .second__header-list li:hover {
+  color: #b0b435;
 }
 
 .header .second__header-list li i {
