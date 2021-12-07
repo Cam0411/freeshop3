@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreeSHop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="grid.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="reponsive/reponsive.css">
+</head>
+<body>
+    <div class="header">
+        <div class="first__header">
+          <div class="grid ">
+              <div class="row">
+                  <div class="col l-7 m-7 c-12">
+                      <ul class="nav">
+                          <li class="check__box"><select name="" id="cars">
+                            <option value="jpy">JPY</option>
+                            <option value="usd">$USD</option>
+                            <option value="eur">EUR</option>
+                          </select></li>
+                          <li class="phone__number"> Call US :- +11 900 800 100</li>
+                          <li class="account"><i class="fas fa-user"></i>MY ACCOUNT</li>
+                          <li><i class="fas fa-map-marker-alt"></i>OUR LOCATION</li>
+                          <li><i class="fas fa-headset"></i>CONTACT US</li>
+                      </ul>
+                  </div>
+                  <div class="col l-5 m-5 c-12">
+                    <ul class="dynamic-txts">
+                      <li><span>Off 10%!shop vegetable </span></li>
+                      <li><span>Off 60%!shop now</span></li>
+                      <li><span> 50%-80% off on vegetable</span></li>
+                      <li><span> Off 10%! shop vegetable</span></li>
+                    </ul>
+                    <div class="res__box"><select name="" id="cars">
+                      <option value="jpy">Register Here</option>
+                      <option value="usd">Sign In</option>
+                    </select></div>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <div id="seccond__header">
+                <div class="grid wide">
+                  <div class="row">
+                    <div class="col l-4 m-6 c-6">
+                     <div class="header__logo">
+                       <img src="asset/logo.png" alt="" srcset="">
+                     </div>
+                    </div>
+                    <div class="col l-8 m-6 c-6">
+                       <ul class="second__header-list">
+                         <li class="change__color">HOME</li>
+                         <li>ABOUT US</li>
+                         <li>SHOP</li>
+                         <li>GALLERY</li>
+                         <li>CONTACT US</li>
+                         <li><i class="fas fa-search"></i></li>
+                         <li class="cart"><i class="fas fa-shopping-cart"></i>My Cart</li>
+                       </ul>
+                       <div class="menu_tablet">
+                        <i class="fas fa-bars"></i>
+                       </div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <p class="swiper__heading">Welcome To <br> Freshshop</p>
+                <p class="swiper__about">See how your users experience your website in realtime or view
+                 <br> trends to see any changes in performance over time.</p>
+                  <p class="swiper__box">Shop new</p>
+              </div>
+              <div class="swiper-slide swiper-slide-2">
+                <p class="swiper__heading">Welcome To <br> Freshshop</p>
+                <p class="swiper__about">See how your users experience your website in realtime or view
+                 <br> trends to see any changes in performance over time.</p>
+                  <p class="swiper__box">Shop new</p>
+              </div>
+              <div class="swiper-slide swiper-slide-3">
+                <p class="swiper__heading">Welcome To <br> Freshshop</p>
+                <p class="swiper__about">See how your users experience your website in realtime or view
+                 <br> trends to see any changes in performance over time.</p>
+                  <p class="swiper__box">Shop new</p>
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+<div class="content">
+
+</div>
+
+<script src="main.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+</body>
+</html>
