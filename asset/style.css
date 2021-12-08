@@ -518,14 +518,14 @@
   width: 100%;
   background: #0004;
   height: 99%;
+  transform: translateY(105px);
+  -webkit-transform: translateY(-100%);
   top: 0;
   left: 0;
   right: 0;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  -webkit-animation: fadeDown 0.1s ease-in-out;
-          animation: fadeDown 0.1s ease-in-out;
-  display: none;
+  display: block;
 }
 
 .content .product__box .contain__box .contain__img .contain__sub .cart {
@@ -651,23 +651,23 @@
 
 @-webkit-keyframes fadeDown {
   from {
+    transform: translateY(-105px);
     -webkit-transform: translateY(-105px);
-            transform: translateY(-105px);
   }
   to {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transform: translateY(0);
   }
 }
 
 @keyframes fadeDown {
   from {
+    transform: translateY(-105px);
     -webkit-transform: translateY(-105px);
-            transform: translateY(-105px);
   }
   to {
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transform: translateY(0);
   }
 }
 /*# sourceMappingURL=style.css.map */

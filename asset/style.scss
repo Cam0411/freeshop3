@@ -481,6 +481,7 @@ $lineheight:25px;
         &:hover .contain__sub {
           display: block;
           transform: translateY(0px);
+         
         }
         .title 
         {
@@ -506,12 +507,14 @@ $lineheight:25px;
           width: 100%;
           background: $darkcolor2;
           height: 99%;
+          transform: translateY(105px);
+          -webkit-transform: translateY(-100%);
           top: 0;
           left: 0;
           right: 0;
            transition: 0.4s;
-           animation: fadeDown 0.1s ease-in-out;
-          display: none;
+          
+          display: block;
            .cart
            {
              position: absolute;
@@ -647,7 +650,9 @@ $lineheight:25px;
 @keyframes fadeDown {
   from {
     transform: translateY(-105px);
+    -webkit-transform: translateY(-105px);
   }to{
     transform: translateY(0px);
+    -webkit-transform: translateY(0);
   }
 }
