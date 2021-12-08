@@ -605,9 +605,21 @@ $lineheight:25px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    &:hover .box__nav 
+
+    {
+      transform: translateY(0);
+    }
+    &:hover img 
+    {
+      transform: scale(1.02);
+    }
     img{
       width: 100%;
       height: 100%;
+      transition: 0.4s;
     }
     .blog__info 
     {
@@ -629,6 +641,11 @@ $lineheight:25px;
       text-align: left;
       line-height: $lineheight;
       font-size: $mediumsize;
+    }
+    .box__nav 
+    {
+      transform: translateY(40px);
+      transition: 0.4s;
     }
     .box__nav li 
     {
