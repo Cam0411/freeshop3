@@ -502,6 +502,7 @@
   background: #b0b435;
   color: #f8f9fa;
   font-weight: 700;
+  z-index: 1;
 }
 
 .content .product__box .contain__box .contain__img .title__2 {

@@ -477,6 +477,7 @@ $lineheight:25px;
         margin-left: auto;
         margin-right: auto;
         cursor: pointer;
+
         position: relative;
         &:hover .contain__sub {
           display: block;
@@ -492,6 +493,7 @@ $lineheight:25px;
           background: $greencolor;
           color: $lightcolor;
           font-weight: 700;
+          z-index: 1;
         }
          .title__2 
          {
