@@ -607,7 +607,7 @@ $lineheight:25px;
     margin-top: 40px;
     overflow: hidden;
     cursor: pointer;
-    &:hover .box__nav 
+    &:hover .box__nav li 
 
     {
       transform: translateY(0);
@@ -642,11 +642,6 @@ $lineheight:25px;
       line-height: $lineheight;
       font-size: $mediumsize;
     }
-    .box__nav 
-    {
-      transform: translateY(40px);
-      transition: 0.4s;
-    }
     .box__nav li 
     {
       display: inline-block;
@@ -656,11 +651,26 @@ $lineheight:25px;
       background: $darkcolor;
       color: $lightcolor;
       cursor: pointer;
-      transition: 0.4s;
+      transition: 0.2s;
+      transform: translateY(40px);
+
+     
       &:hover 
       {
         background: $greencolor;
       }
+    }
+    li.delay__1 
+    {
+     transition-delay: 0.1s;
+    }
+    li.delay__2
+    {
+     transition-delay: 0.2s;
+    }
+    li.delay__3
+    {
+     transition-delay: 0.3s;
     }
   }
 
