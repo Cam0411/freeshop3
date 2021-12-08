@@ -136,11 +136,12 @@ $headingsize:40px;
         margin-right: auto;
         cursor: pointer;
         position: relative;
-      
+       overflow: hidden;
       }
       .cotain__info 
       {
         width:300px;
+        margin-bottom: 40px;
         .info__heading
         {
           font-size: 14px;

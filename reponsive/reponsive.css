@@ -105,9 +105,11 @@
     margin-right: auto;
     cursor: pointer;
     position: relative;
+    overflow: hidden;
   }
   .content .product__box .contain__box .cotain__info {
     width: 300px;
+    margin-bottom: 40px;
   }
   .content .product__box .contain__box .cotain__info .info__heading {
     font-size: 14px;
