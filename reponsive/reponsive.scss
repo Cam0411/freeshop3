@@ -4,9 +4,10 @@ $headingsize:40px;
 @media (max-width:739px){
     .header
     {
+      height: 170px;
       .first__header
       {
-          height: 70px;
+          height: 80px;
           text-align: center;
           padding-left: 2px;
           li.check__box {
@@ -26,7 +27,7 @@ $headingsize:40px;
       }
       .seccond__header{
         padding: 10px 15px 10px 15px;
-        
+        height: 145px;
         }
         .header__logo{
           img{
@@ -69,7 +70,7 @@ $headingsize:40px;
     }
     .content 
 {
-  height: 6500px;
+  height: 5920px;
   overflow: hidden;
   .catagories__shop
   {
@@ -207,16 +208,182 @@ animation-delay: -0.3s;
     }
   }
 }
+.footer 
+{
+  height: 1600px;
+ 
+  padding: 10px;
+  overflow: hidden;
+  .swiper2 
+  {
+   
+    height: 200px;
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    
+    margin-top: 50px;
+    
+  }
+  .footer__main
+  .swiper-slide
+  {
+       background: none;
+  }
+  .footer__business 
+  {
+    padding: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    .business__heading
+    {
+
+      margin-bottom: 20px;
+
+      width: 160px;
+      padding-bottom: 5px;
+    }
+    .business__nav 
+    {
+      li 
+      {
+        list-style: none;
+ 
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .footer__main 
+  {
+    margin-top: 20px;
+  }
+  .footer__Newsleter 
+  {
+    padding: 10px;
+    margin-bottom: 40px;
+    .newsleter__heading
+    {
+      
+      margin-bottom: 20px;
+    
+      width: 160px;
+      padding-bottom: 5px;
+    }
+    .emali__input 
+    {
+      width: 90%;
+      .email 
+      {
+  
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 15px;
+        i 
+        {
+          padding: 5px 14px;
+        }
+      }
+      .email__btn 
+      {
+        background: none;
+        outline: none;
+        border: none;
+        width: 80%;
+        padding: 5px 14px;
+      }
+      .submit__btn 
+      {
+
+        padding: 5px 14px;
+        cursor: pointer;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+             appearance: none;
+          
+      }
+    }
+  }
+  .footer__social 
+  {
+    margin-left: 0px;
+    padding: 10px;
+    margin-bottom: 30px;
+    .social__heading 
+    {
+ 
+      margin-bottom: 10px;
+    
+      width: 160px;
+      padding-bottom: 5px;
+    }
+    .social__about 
+    {
+  
+      margin-bottom: 20px;
+    
+    }
+    .social__nav 
+    {
+      li
+      {
+        list-style: none;
+   
+        display: inline-block;
+     
+       padding: 6px;
+        
+        transition: 0.4s;
+        cursor: pointer;
+         
+      }
+    }
+  }
+  .footer__main-2 
+  {
+    margin-top: 40px;
+     .footer__freshshop 
+     {
+       padding: 10px;
+       margin-left: 0px;
+       margin-bottom: 10px;
+     } 
+     .footer__information 
+    {
+  
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    .footer__contact 
+    {
+      margin-left: 0;
+      padding: 10px;
+      
+    }
+     }
+     .footer__copyright 
+     {
+       margin-top: 40px;
+       font-size: 14px;
+       line-height: 25px;
+     }
+}
+.modal 
+{
+  .content__modal
+  {
+    width: 100%;
+  }
+}
 }
 @media (max-width:400px){
     .header
     {
+      height: 170px;
       .first__header
       {
           .nav li {
               font-size: $mobliesize;
           }
-          height: 70px;
+          height: 80px;
           text-align: center;
           padding-left: 2px;
           li.check__box {
@@ -245,7 +412,7 @@ animation-delay: -0.3s;
     }
     .content 
 {
-  height: 8000px;
+  height: 100%;
   overflow: hidden;
   .catagories__shop
   {
@@ -330,6 +497,11 @@ animation-delay: -0.3s;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+    &:hover .box__nav li 
+
+    {
+      transform: translateY(30px);
+    }
     img{
       width: 100%;
       height: 100%;
@@ -361,6 +533,7 @@ animation-delay: -0.3s;
       padding: 8px 10px;
       cursor: pointer;
       transition: 0.4s;
+      transform: translateY(100px);
     }
     li.delay__1 
     {
@@ -382,7 +555,132 @@ animation-delay: -0.3s;
     }
   }
 }
+.footer 
+{
+  height: 1650px;
+ 
+  padding: 10px;
+  overflow: hidden;
+
+  .swiper2 
+  {
+   
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px;
+    
+  }
+  .swiper-slide
+  {
+       background: none;
+  }
+  .footer__business 
+  {
+    padding: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    .business__heading
+    {
+
+      margin-bottom: 20px;
+
+      width: 160px;
+      padding-bottom: 5px;
+    }
+    .business__nav 
+    {
+      li 
+      {
+        list-style: none;
+ 
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .footer__Newsleter 
+  {
+    padding: 10px;
+    margin-bottom: 40px;
+    .newsleter__heading
+    {
+      
+      margin-bottom: 20px;
+    
+      width: 160px;
+      padding-bottom: 5px;
+    }
+    .emali__input 
+    {
+      width: 90%;
+      .email 
+      {
+  
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 15px;
+        i 
+        {
+          padding: 5px 14px;
+        }
+      }
+      .email__btn 
+      {
+        background: none;
+        outline: none;
+        border: none;
+        width: 80%;
+        padding: 5px 14px;
+      }
+      .submit__btn 
+      {
+
+        padding: 5px 14px;
+        cursor: pointer;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+             appearance: none;
+          
+      }
+    }
+  }
+  .footer__social 
+  {
+    margin-left: 0px;
+    padding: 10px;
+    .social__heading 
+    {
+ 
+      margin-bottom: 10px;
+    
+      width: 160px;
+      padding-bottom: 5px;
+    }
+    .social__about 
+    {
+  
+      margin-bottom: 20px;
+    
+    }
+    .social__nav 
+    {
+      li
+      {
+        list-style: none;
+   
+        display: inline-block;
+     
+       padding: 6px;
+      
+        transition: 0.4s;
+        cursor: pointer;
+      
+      }
+    }
+  }
 }
+}
+
 @media (min-width: 740px) and (max-width: 1023px) {
   .header
   {
@@ -417,7 +715,7 @@ animation-delay: -0.3s;
   .content 
   {
 
-    height: 5000px;
+    height: 3330px;
     overflow: hidden;
     .catagories__shop
     {
@@ -544,8 +842,159 @@ animation-delay: -0.3s;
     }
   }
   }
+  .footer 
+{
+  height: 1500px;
+ 
+  padding: 10px;
+  overflow: hidden;
+  .swiper2 
+  {
+   
+    height: 210px;
+    width: 644px;
+    padding: 10px;
+    margin-top: 50px;
+    
+  }
+  .swiper-slide
+  {
+       background: none;
+  }
+  .footer__main 
+  {
+    margin-top: 40px;
+  }
+  .footer__business 
+  {
+    padding: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    .business__heading
+    {
 
+      margin-bottom: 20px;
+
+      width: 160px;
+      padding-bottom: 5px;
+    }
+    .business__nav 
+    {
+      li 
+      {
+        list-style: none;
+ 
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .footer__Newsleter 
+  {
+    padding: 10px;
+    margin-bottom: 40px;
+    .newsleter__heading
+    {
+      
+      margin-bottom: 20px;
+    
+      width: 160px;
+      padding-bottom: 5px;
+    }
+    .emali__input 
+    {
+      width: 90%;
+      .email 
+      {
   
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 15px;
+        i 
+        {
+          padding: 5px 14px;
+        }
+      }
+      .email__btn 
+      {
+        background: none;
+        outline: none;
+        border: none;
+        width: 80%;
+        padding: 5px 14px;
+      }
+      .submit__btn 
+      {
+
+        padding: 5px 14px;
+        cursor: pointer;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+             appearance: none;
+          
+      }
+    }
+  }
+  .footer__social 
+  {
+    margin-left: 0px;
+    padding: 10px;
+    padding-bottom: 30px;
+    .social__heading 
+    {
+ 
+      margin-bottom: 10px;
+    
+      width: 160px;
+      padding-bottom: 5px;
+    }
+    .social__about 
+    {
+  
+      margin-bottom: 20px;
+    
+    }
+    .social__nav 
+    {
+      li
+      {
+        list-style: none;
+   
+        display: inline-block;
+     
+       padding: 6px;
+      
+        transition: 0.4s;
+        cursor: pointer;
+      
+      }
+    }
+  }
+  .footer__main-2 
+  {
+    margin-top: 40px;
+     .footer__freshshop 
+     {
+       padding: 10px;
+       margin-left: 0px;
+       margin-bottom: 10px;
+     } 
+     .footer__information 
+    {
+  
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    .footer__contact 
+    {
+      margin-left: 0;
+      padding: 10px;
+    }
+     }
+     .footer__copyright 
+     {
+       margin-top: 40px;
+     }
+}
 }
 
 @media (min-width: 1024px) and (max-width: 1055px) {
@@ -564,7 +1013,7 @@ animation-delay: -0.3s;
   {
     .content 
 {
-  height: 3000px;
+  height: 2410px;
   overflow: hidden;
   .catagories__shop
   {
@@ -690,4 +1139,25 @@ animation-delay: -0.3s;
     }
   }
   }
+  .footer 
+{
+  height: 1000px;
+ 
+  padding: 10px;
+  overflow: hidden;
+  .swiper2 
+  {
+   
+    height: 200px;
+    width: 966px;
+    padding: 10px;
+    margin-top: 50px;
+    
+  }
+  .swiper-slide
+  {
+       background: none;
+  }
+ 
+}
 }

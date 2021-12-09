@@ -1,6 +1,9 @@
 @media (max-width: 739px) {
+  .header {
+    height: 170px;
+  }
   .header .first__header {
-    height: 70px;
+    height: 80px;
     text-align: center;
     padding-left: 2px;
   }
@@ -19,6 +22,7 @@
   }
   .header .seccond__header {
     padding: 10px 15px 10px 15px;
+    height: 145px;
   }
   .header .header__logo img {
     width: 160px;
@@ -46,7 +50,7 @@
     display: none;
   }
   .content {
-    height: 6500px;
+    height: 5920px;
     overflow: hidden;
   }
   .content .catagories__shop {
@@ -165,11 +169,128 @@
     -webkit-animation-delay: -0.3s;
     animation-delay: -0.3s;
   }
+  .footer {
+    height: 1600px;
+    padding: 10px;
+    overflow: hidden;
+  }
+  .footer .swiper2 {
+    height: 200px;
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    margin-top: 50px;
+  }
+  .footer .footer__main
+.swiper-slide {
+    background: none;
+  }
+  .footer .footer__business {
+    padding: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .footer .footer__business .business__heading {
+    margin-bottom: 20px;
+    width: 160px;
+    padding-bottom: 5px;
+  }
+  .footer .footer__business .business__nav li {
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  .footer .footer__main {
+    margin-top: 20px;
+  }
+  .footer .footer__Newsleter {
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+  .footer .footer__Newsleter .newsleter__heading {
+    margin-bottom: 20px;
+    width: 160px;
+    padding-bottom: 5px;
+  }
+  .footer .footer__Newsleter .emali__input {
+    width: 90%;
+  }
+  .footer .footer__Newsleter .emali__input .email {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 15px;
+  }
+  .footer .footer__Newsleter .emali__input .email i {
+    padding: 5px 14px;
+  }
+  .footer .footer__Newsleter .emali__input .email__btn {
+    background: none;
+    outline: none;
+    border: none;
+    width: 80%;
+    padding: 5px 14px;
+  }
+  .footer .footer__Newsleter .emali__input .submit__btn {
+    padding: 5px 14px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .footer .footer__social {
+    margin-left: 0px;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  .footer .footer__social .social__heading {
+    margin-bottom: 10px;
+    width: 160px;
+    padding-bottom: 5px;
+  }
+  .footer .footer__social .social__about {
+    margin-bottom: 20px;
+  }
+  .footer .footer__social .social__nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 6px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  .footer .footer__main-2 {
+    margin-top: 40px;
+  }
+  .footer .footer__main-2 .footer__freshshop {
+    padding: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .footer .footer__main-2 .footer__information {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .footer .footer__main-2 .footer__contact {
+    margin-left: 0;
+    padding: 10px;
+  }
+  .footer .footer__copyright {
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .modal .content__modal {
+    width: 100%;
+  }
 }
 
 @media (max-width: 400px) {
+  .header {
+    height: 170px;
+  }
   .header .first__header {
-    height: 70px;
+    height: 80px;
     text-align: center;
     padding-left: 2px;
   }
@@ -197,7 +318,7 @@
     display: block;
   }
   .content {
-    height: 8000px;
+    height: 100%;
     overflow: hidden;
   }
   .content .catagories__shop {
@@ -265,6 +386,10 @@
     margin-right: auto;
     margin-top: 40px;
   }
+  .content .img__box:hover .box__nav li {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
   .content .img__box img {
     width: 100%;
     height: 100%;
@@ -291,6 +416,8 @@
     cursor: pointer;
     -webkit-transition: 0.4s;
     transition: 0.4s;
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
   }
   .content .img__box li.delay__1 {
     -webkit-transition-delay: 0.1s;
@@ -309,6 +436,91 @@
             transition-delay: 0.3s;
     -webkit-animation-delay: -0.3s;
     animation-delay: -0.3s;
+  }
+  .footer {
+    height: 1650px;
+    padding: 10px;
+    overflow: hidden;
+  }
+  .footer .swiper2 {
+    height: 150px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  .footer .swiper-slide {
+    background: none;
+  }
+  .footer .footer__business {
+    padding: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .footer .footer__business .business__heading {
+    margin-bottom: 20px;
+    width: 160px;
+    padding-bottom: 5px;
+  }
+  .footer .footer__business .business__nav li {
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  .footer .footer__Newsleter {
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+  .footer .footer__Newsleter .newsleter__heading {
+    margin-bottom: 20px;
+    width: 160px;
+    padding-bottom: 5px;
+  }
+  .footer .footer__Newsleter .emali__input {
+    width: 90%;
+  }
+  .footer .footer__Newsleter .emali__input .email {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 15px;
+  }
+  .footer .footer__Newsleter .emali__input .email i {
+    padding: 5px 14px;
+  }
+  .footer .footer__Newsleter .emali__input .email__btn {
+    background: none;
+    outline: none;
+    border: none;
+    width: 80%;
+    padding: 5px 14px;
+  }
+  .footer .footer__Newsleter .emali__input .submit__btn {
+    padding: 5px 14px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .footer .footer__social {
+    margin-left: 0px;
+    padding: 10px;
+  }
+  .footer .footer__social .social__heading {
+    margin-bottom: 10px;
+    width: 160px;
+    padding-bottom: 5px;
+  }
+  .footer .footer__social .social__about {
+    margin-bottom: 20px;
+  }
+  .footer .footer__social .social__nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 6px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    cursor: pointer;
   }
 }
 
@@ -337,7 +549,7 @@
     display: block;
   }
   .content {
-    height: 5000px;
+    height: 3330px;
     overflow: hidden;
   }
   .content .catagories__shop {
@@ -444,6 +656,114 @@
     -webkit-animation-delay: -0.3s;
     animation-delay: -0.3s;
   }
+  .footer {
+    height: 1500px;
+    padding: 10px;
+    overflow: hidden;
+  }
+  .footer .swiper2 {
+    height: 210px;
+    width: 644px;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  .footer .swiper-slide {
+    background: none;
+  }
+  .footer .footer__main {
+    margin-top: 40px;
+  }
+  .footer .footer__business {
+    padding: 10px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+  .footer .footer__business .business__heading {
+    margin-bottom: 20px;
+    width: 160px;
+    padding-bottom: 5px;
+  }
+  .footer .footer__business .business__nav li {
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  .footer .footer__Newsleter {
+    padding: 10px;
+    margin-bottom: 40px;
+  }
+  .footer .footer__Newsleter .newsleter__heading {
+    margin-bottom: 20px;
+    width: 160px;
+    padding-bottom: 5px;
+  }
+  .footer .footer__Newsleter .emali__input {
+    width: 90%;
+  }
+  .footer .footer__Newsleter .emali__input .email {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-bottom: 15px;
+  }
+  .footer .footer__Newsleter .emali__input .email i {
+    padding: 5px 14px;
+  }
+  .footer .footer__Newsleter .emali__input .email__btn {
+    background: none;
+    outline: none;
+    border: none;
+    width: 80%;
+    padding: 5px 14px;
+  }
+  .footer .footer__Newsleter .emali__input .submit__btn {
+    padding: 5px 14px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  .footer .footer__social {
+    margin-left: 0px;
+    padding: 10px;
+    padding-bottom: 30px;
+  }
+  .footer .footer__social .social__heading {
+    margin-bottom: 10px;
+    width: 160px;
+    padding-bottom: 5px;
+  }
+  .footer .footer__social .social__about {
+    margin-bottom: 20px;
+  }
+  .footer .footer__social .social__nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 6px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    cursor: pointer;
+  }
+  .footer .footer__main-2 {
+    margin-top: 40px;
+  }
+  .footer .footer__main-2 .footer__freshshop {
+    padding: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .footer .footer__main-2 .footer__information {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .footer .footer__main-2 .footer__contact {
+    margin-left: 0;
+    padding: 10px;
+  }
+  .footer .footer__copyright {
+    margin-top: 40px;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1055px) {
@@ -455,7 +775,7 @@
 
 @media (min-width: 1024px) and (max-width: 1239px) {
   .content {
-    height: 3000px;
+    height: 2410px;
     overflow: hidden;
   }
   .content .catagories__shop {
@@ -556,6 +876,20 @@
             transition-delay: 0.3s;
     -webkit-animation-delay: -0.3s;
     animation-delay: -0.3s;
+  }
+  .footer {
+    height: 1000px;
+    padding: 10px;
+    overflow: hidden;
+  }
+  .footer .swiper2 {
+    height: 200px;
+    width: 966px;
+    padding: 10px;
+    margin-top: 50px;
+  }
+  .footer .swiper-slide {
+    background: none;
   }
 }
 /*# sourceMappingURL=reponsive.css.map */
