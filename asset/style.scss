@@ -353,7 +353,7 @@ $lineheight:25px;
 
 .content 
 {
-  height: 3000px;
+  height: 2540px;
   overflow: hidden;
   .catagories__shop
   {
@@ -462,6 +462,10 @@ $lineheight:25px;
        margin-bottom: 20px;
       }
       li.change__color-2 
+      {
+        background: $darkcolor;
+      }
+      li.change__color-3 
       {
         background: $darkcolor;
       }
@@ -677,7 +681,270 @@ animation-delay: -0.3s;
   }
 
 }
+.footer 
+{
+  height: 1000px;
+  background: $darkcolor;
+  padding: 10px;
+  overflow: hidden;
 
+  .swiper2 
+  {
+    color: $lightcolor;
+    height: 250px;
+    width: 1200px;
+    padding: 10px;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    .swiper-slide
+    {
+      overflow: hidden;
+      &:hover   .sub__slide  
+      {
+        transform: translateY(0);
+      }
+    }
+  }
+  .sub__slide 
+  {
+       position: absolute;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       top: 0;
+       background: #e83e8c;
+       width: 100%;
+       height: 100%;
+       opacity: 0.4;
+       justify-content: center;
+       align-items: center;
+       display: flex;
+       transform: translateY(102%);
+       transition: 0.4s;
+
+       i 
+       {
+         color:$darkcolor;
+         font-size: $largesize;
+         transition: 0.4s;
+         &:hover 
+         {
+          color:$lightcolor;
+         }
+       }
+  }
+  .footer__main 
+  {
+    padding: 10px;
+    margin-top: 100px;
+    border-bottom: 2px solid $lightcolor;
+    padding-bottom: 20px;
+  }
+  .footer__business 
+  {
+    padding: 10px;
+    color: $lightcolor;
+    margin-left: 6px;
+    .business__heading
+    {
+      color: $lightcolor;
+      margin-bottom: 20px;
+      border-bottom: 2px solid $greencolor;
+      width: 160px;
+      padding-bottom: 5px;
+    }
+    .business__nav 
+    {
+      li 
+      {
+        list-style: none;
+        line-height: $lineheight;
+        margin-bottom: 5px;
+        font-size: $mediumsize;
+      }
+    }
+  
+  }
+  .footer__Newsleter 
+  {
+    padding-top: 10px;
+    .newsleter__heading
+    {
+      color: $lightcolor;
+      margin-bottom: 20px;
+      border-bottom: 2px solid $greencolor;
+      width: 160px;
+      padding-bottom: 5px;
+    }
+    .emali__input 
+    {
+      width: 90%;
+      .email 
+      {
+        background: $lightcolor2;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 15px;
+        i 
+        {
+          padding: 5px 14px;
+        }
+      }
+      .email__btn 
+      {
+        background: none;
+        outline: none;
+        border: none;
+        width: 80%;
+        padding: 5px 14px;
+      }
+      .submit__btn 
+      {
+        background: $greencolor;
+        padding: 5px 14px;
+        cursor: pointer;
+        color: $lightcolor;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+             appearance: none;
+          
+      }
+    }
+  }
+  .footer__social 
+  {
+    padding-top: 10px;
+    margin-left: 30px;
+    .social__heading 
+    {
+      color: $lightcolor;
+      margin-bottom: 10px;
+      border-bottom: 2px solid $greencolor;
+      width: 160px;
+      padding-bottom: 5px;
+    }
+    .social__about 
+    {
+      color: $lightcolor2;
+      margin-bottom: 20px;
+      line-height: $lineheight;
+      font-size: $mediumsize;
+    }
+    .social__nav 
+    {
+      li
+      {
+        list-style: none;
+        color: $lightcolor2;
+        display: inline-block;
+        border: 2px solid $lightcolor;
+       padding: 6px;
+        font-size: $smallsize;
+        transition: 0.4s;
+        cursor: pointer;
+        &:hover 
+        {
+          color: $greencolor;
+          border: 2px solid $greencolor;
+        }
+      }
+    }
+  }
+  .footer__main-2 
+  {
+    margin-top: 30px;
+     .footer__freshshop 
+     {
+       padding: 10px;
+       margin-left: 10px;
+
+     }
+    .fresh__heading 
+    {
+      color: $lightcolor;
+      margin-bottom: 20px;
+      border-bottom: 2px solid $greencolor;
+      padding-bottom: 10px;
+    }
+    .fresh__about 
+    {
+      color: $greycolor;
+      font-size: $smallsize;
+      line-height: 25px;
+    }
+    .footer__information 
+    {
+      padding-top: 10px;
+    }
+    .information__heading 
+    {
+      color: $lightcolor;
+      margin-bottom: 20px;
+      border-bottom: 2px solid $greencolor;
+      padding-bottom: 10px;
+    }
+    .information__nav 
+    {
+      li 
+      {
+        list-style: none;
+        color: $lightcolor;
+        font-size: $mediumsize;
+        line-height: $lineheight;
+        cursor: pointer;
+        transition: 0.4s;
+        &:hover 
+        {
+          transform: translateX(5px);
+          color: $greencolor;
+        }
+      }
+    }
+    .footer__contact 
+    {
+      padding-top: 10px;
+      margin-left: 30px;
+      .footer__heading 
+      {
+        color: $lightcolor;
+      
+        margin-bottom: 20px;
+      border-bottom: 2px solid $greencolor;
+      padding-bottom: 10px;
+      }
+      .contact__nav 
+      {
+        li 
+        {
+          color: $greycolor;
+          font-size: $mediumsize;
+          list-style: none;
+          line-height: $lineheight;
+          transition: 0.4s;
+          &:hover 
+            {
+              color: $greencolor;
+            }
+          i{
+            margin-right: 10px;
+        
+            
+          }
+        }
+      }
+    }
+  }
+  .footer__copyright 
+  {
+    margin-top: 100px;
+    .copyright__heading 
+    {
+      color: $lightcolor;
+      text-align: center;
+    }
+  }
+}
 @keyframes fadeDown {
   from {
     transform: translateY(-105px);
@@ -686,4 +953,135 @@ animation-delay: -0.3s;
     transform: translateY(0px);
     -webkit-transform: translateY(0);
   }
+}
+.modal 
+{
+  position: fixed;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  bottom: 0;
+  
+   transition: 0.4s;
+   transform: translateX(-100%);
+  .content__modal 
+  {
+    width: 50%;
+    background: $lightcolor;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .content__close
+    {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 30px;
+      padding: 10px 14px;
+      cursor: pointer;
+      transition: 0.4s;
+      &:hover i
+      {
+        color: red;
+      }
+    }
+   .modal__nav 
+   {
+     li 
+     {
+       line-height: 25px;
+       margin-bottom: 10px;
+       list-style: none;
+       transition: 0.4s;
+       cursor: pointer;
+       font-size: 20;
+       &:hover 
+       {
+         color: $greencolor;
+       }
+     }
+     li.changeColor 
+     {
+       color: $greencolor;
+     }
+   }
+  }
+}
+.modal.open 
+{
+  display: flex;
+ transform: translateX(0);
+}
+.background 
+{
+  background: #0004;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 9999;
+  animation: fadeIn 0.4s ease-in-out;
+  display: none;
+}
+.background.open2 
+{
+  display: flex;
+}
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }to {
+    opacity: 1;
+  }
+}
+
+.to__top 
+{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    background: $greencolor;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+
+    &:hover 
+    {
+      opacity: 0.4;
+    }
+}
+.to__top a
+{
+    color: #fff ;
+}
+.to__top.active 
+{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeup linear 0.4s;
+    animation: 0.4s fadeIN ease-in-out;
+}
+
+@keyframes fadeIN {
+    from{
+        opacity: 0;
+    }to 
+    {
+        opacity: 1;
+    }
 }
