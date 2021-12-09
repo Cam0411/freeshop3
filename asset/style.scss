@@ -268,7 +268,7 @@ $lineheight:25px;
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    background-image: url("../asset/banner3.jpg"), linear-gradient(#eb01a5, #d13531);
+    background-image: url("../asset/banner3.jpg"), ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -784,7 +784,7 @@ animation-delay: -0.3s;
       {
         background: $lightcolor2;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-bottom: 15px;
         i 
         {
